@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Cauã Moraes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="projetos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Efeito de particulas -->
+    <div id="particles-js"></div>
+    
+    <!-- Efeitos de luz no canto -->
+    <div class="corner-light top-left"></div>
+    <div class="corner-light bottom-right"></div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <h2 class="logo">Cauã<span> Moraes</span></h2>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="index.html#sobre">Sobre Mim</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="projeto.html">Projetos</a></li>
+        </ul>         
+    </nav>
+
+    <!-- Cards -->
+    <main>
+        <h1 class="page-title animate__animated animate__fadeInDown">Meus Projetos</h1>
+        
+        <div class="projects-grid" id="projects-grid">
+            <!-- Projeto 1: Workly -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card-inner">
+                    <img src="img/Screenshot_1.png" alt="Workly" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Workly</h3>
+                        <p class="project-description">
+                            Plataforma de freelancers desenvolvida como Projeto Integrador na FATEC. O site conecta profissionais de diversas áreas com clientes, oferecendo um sistema de avaliações, pagamentos seguros e busca por categorias.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/CauaMora/HTML-CSS" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                            <a href="https://github.com/CauaMora/HTML-CSS" class="project-link outline">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projeto 2: Freelance -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-card-inner">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Site Freelance" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Site</h3>
+                        <p class="project-description">
+                            Futuro Projeto
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Styled Components</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Visitar
+                            </a>
+                            <a href="" class="project-link outline">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projeto 3: Futuro Projeto -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-card-inner">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Próximo Projeto" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Em Desenvolvimento</h3>
+                        <p class="project-description">
+                            Estou trabalhando em um novo projeto inovador que será lançado em breve. Esta seção será atualizada com detalhes assim que o projeto estiver concluído.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Em breve</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" style="pointer-events: none; opacity: 0.7;">
+                                <i class="fas fa-hourglass-half"></i> Em breve
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contato">
+        <div class="social-links">
+            <a href="https://www.instagram.com/caua_moraes94/" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/CauaMora" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/cauã-moraes-3b8456358/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <p class="copyright">© <span id="current-year"></span> Cauã de Moraes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="projetos.js"></script>
+</body>
+</html>
